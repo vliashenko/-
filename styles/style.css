@@ -565,6 +565,7 @@ body {
   flex-grow: 1;
   display: block;
   padding: 25px 30px 10px 30px;
+  text-align: center;
   background-color: #242121;
   color: #ffffff;
 }
@@ -888,8 +889,7 @@ body {
   color: #ffffff;
   letter-spacing: 0.06em;
 }
-.footer__container {
-}
+
 .footer-list {
   display: flex;
   justify-content: center;
