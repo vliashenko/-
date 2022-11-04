@@ -37,23 +37,35 @@
 </head>
 
 <body>
+    <!-- SIDEBAR -->
+    <div id="myNav" class="overlay">
+        <span class="closebtn" onclick="closeNav()">&times;</span>
+        <div class="overlay-content">
+            <a href="#" onclick="closeNav()">Головна</a>
+            <a href="#generators" onclick="closeNav()">Генератори</a>
+            <a href="#aboutus" onclick="closeNav()">Про компанію</a>
+            <a href="#contacts" onclick="closeNav()">Контакти</a>
+        </div>
+    </div>
+    <!-- SIDEBAR -->
+
     <div class="wrapper">
         <header class="header" id="header">
             <div class="header__container">
                 <div class="header__col_left">
-                    <a href="" class="header__logo">
+                    <a href="#" class="header__logo">
                         <img class="header__img" src="./images/logo/logo.jpg" alt="">
                     </a>
                     <nav class="header__menu menu">
                         <ul class="menu__list">
                             <li class="menu__item">
-                                <a href="" class="menu__link">Генератори</a>
+                                <a href="#generators" class="menu__link">Генератори</a>
                             </li>
                             <li class="menu__item">
-                                <a href="" class="menu__link">Зарядні станції</a>
+                                <a href="#aboutus" class="menu__link">Про компанію</a>
                             </li>
                             <li class="menu__item">
-                                <a href="" class="menu__link">Контакти</a>
+                                <a href="#contacts" class="menu__link">Контакти</a>
                             </li>
                         </ul>
                     </nav>
@@ -69,7 +81,7 @@
                     </button>
                 </div>
                 <div class="header__col_right hidden">
-                    <span class="burger">
+                    <span class="burger" onclick="openNav()">
                         ☰
                     </span>
                 </div>
@@ -138,7 +150,7 @@
                     </div>
                 </div>
             </section>
-            <section class="page__main products-block">
+            <section id="generators" class="page__main products-block">
                 <div class="products-block__container">
                     <div class="products-block__head">
                         <h3 class="products-block__title">
@@ -256,8 +268,10 @@
                                 </div>
                                 <div class="products-list__item_bottom">
                                     <p class="products-list__title">ALMAR 22</p>
-                                    <p class="products-list__text">Дизельний генератор турецького бренду Alimar.  Максимальна вихідна потужність: 22кВА. Ємність
-                                        паливного бака з кабіною: 65л і без кабіни: 100л. Розміри з кабіною: 1750х1420х950 і без: 1450х1120х595.
+                                    <p class="products-list__text">Дизельний генератор турецького бренду Alimar.
+                                        Максимальна вихідна потужність: 22кВА. Ємність
+                                        паливного бака з кабіною: 65л і без кабіни: 100л. Розміри з кабіною:
+                                        1750х1420х950 і без: 1450х1120х595.
                                         Вага з кабіною:
                                         770кг і без кабіни: 595кг. </p>
                                 </div>
@@ -266,7 +280,7 @@
                     </div>
                 </div>
             </section>
-            <section class="page__main about-block">
+            <section id="aboutus" class="page__main about-block">
                 <div class="about-block__container">
                     <h3 class="about-block__title">
                         НАША КОМПАНІЯ
@@ -303,7 +317,7 @@
                     </p>
                 </div>
             </section>
-            <section class="page__main team-block">
+            <section id="contacts" class="page__main team-block">
                 <div class="team-block__container">
                     <div class="team-block__head">
                         <p class="team-block__subtitle">
@@ -443,7 +457,8 @@
             </div>
         </footer>
     </div>
-    <script src="./scripts/header.js"></script>
+    <script src="scripts/header.js"></script>
+    <script src="scripts/modal.js"></script>
 </body>
 
 </html>
