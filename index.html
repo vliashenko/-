@@ -51,6 +51,49 @@
     </div>
     <!-- SIDEBAR -->
 
+    <!--MODAL-->
+    <input class="modal-block__checkbox" id="button" type="checkbox"></input>
+    <div class="modal-block">
+        <div class="modal-block__content modal-container">
+            <div class="modal-container__heading">
+                <h3 class="modal-container__subtitle">
+                    Вітаємо.
+                </h3>
+                <h1 class="modal-container__title">
+                   Ми раді, що ви з нами!
+                </h1>
+                <p class="modal-container__text">
+                    Зателефонуйте нам за номером (093) 433-74-89 або заповніть форму нижче і ми зв'яжемося з вами у
+                    найближчий час.
+                </p>
+            </div>
+            <form action="#" class="modal-container__form modal-form">
+                <div class="modal-form__fieldset">
+                    <div class="modal-form__item">
+                        <input class="modal-form__input" type="text" id="name" name="name" placeholder="Повне Ім'я *">
+                    </div>
+                    <div class="modal-form__item">
+                        <input class="modal-form__input" type="text" id="business" name="business" placeholder="Назва компанії *">
+                    </div>
+                    <div class="modal-form__item">
+                        <input class="modal-form__input" type="email" id="email" name="email" placeholder="Email адреса *">
+                    </div>
+                    <div class="modal-form__item">
+                        <input class="modal-form__input" type="tel" id="phone" name="phone" placeholder="Номер телефону *">
+                    </div>
+                </div>
+                <div class="modal-form__fieldset">
+                    <textarea class="modal-form__textarea modal-form__input" name="message" id="message" placeholder="Як ми можемо вам допомогти? *"></textarea>
+                </div>
+                <div class="modal-form__bottom">
+                    <button class="modal-form__button">
+                        НАДІСЛАТИ
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!--MODAL-->
     <div class="wrapper">
         <header class="header" id="header">
             <div class="header__container">
@@ -79,7 +122,7 @@
                         </li>
                     </ul>
                     <button class="button">
-                        Консультація
+                        <label class="modal-block__label" for="button">Консультація</label>
                     </button>
                 </div>
                 <div class="header__col_right hidden">
@@ -395,7 +438,8 @@
                                     <!-- Slides -->
                                     <div class="swiper-slide">
                                         <q class="redbox-block__text">
-                                            Національний університет оборони імені Івана Черняховського висловлює подяку ТОВ
+                                            Національний університет оборони імені Івана Черняховського висловлює подяку
+                                            ТОВ
                                             "Компанія Промспецресурс" за успішне виконання робіт з поточних та
                                             капітальних
                                             ремонтів
@@ -423,7 +467,8 @@
                                     </div>
                                     <div class="swiper-slide">
                                         <q class="redbox-block__text">
-                                            ТОВ "Компанія Промспецресурс" (ЄДРПОУ 39053657) в 2017 році було запроєктовано,
+                                            ТОВ "Компанія Промспецресурс" (ЄДРПОУ 39053657) в 2017 році було
+                                            запроєктовано,
                                             змонтовано, та запущено в експлуатацію система освітлення периметру та
                                             загальної території Головного військово-медичного клінічного центру
                                             (Центральний клінічний госпіталь) Державної прикордонної служби України з
@@ -450,7 +495,7 @@
                                             повідомляє, що за договором 05/2020 від 16 березня 2020 р. Товариство з
                                             Обмеженою відповідальністю "Компанія Промспецресурс" виконувала
                                             будівельно-монтажні та електромонтажні роботи.
-                                            Під час виеонання робіт ТОВ  "Компанія Промспецресурс" дотримувалась високої
+                                            Під час виеонання робіт ТОВ "Компанія Промспецресурс" дотримувалась високої
                                             якості виконання робіт, норм охорони праці, техніки безпеки та пожежної
                                             безпеки.
                                             Роботи згідно договору виконані якісно та в зазначениі терміни.
@@ -461,7 +506,7 @@
                                                 І.В.Котов
                                             </strong>
                                             <p class="redbox-block__position">
-                                                Генеральний директор 
+                                                Генеральний директор
                                             </p>
                                         </div>
                                     </div>
@@ -484,7 +529,7 @@
                             сторінці.
                         </p>
                         <button class="contacts-block__button button">
-                            Консультація
+                            <label class="modal-block__label" for="button">Консультація</label>
                         </button>
                     </div>
                 </div>
