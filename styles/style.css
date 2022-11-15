@@ -329,6 +329,12 @@ body {
 }
 
 @media (max-width: 671.98px) {
+  .header {
+    height: 80px;
+  }
+  .header__container {
+    height: 80px;
+  }
   .main-block__subtitle {
     font: 500 22px/1 "Work Sans", sans-serif;
   }
@@ -341,13 +347,14 @@ body {
   }
   .main-block {
     height: 78.5vh;
+    margin-top: 66px;
   }
 }
 
 @media (max-width: 503.98px) {
   .main-block__title {
-    font: 800 28px/70px "Work Sans", sans-serif;
-    letter-spacing: -3px;
+    font: 800 28px/50px "Work Sans", sans-serif;
+    letter-spacing: -2px;
     margin-bottom: 0;
   }
   .main-block__text {
@@ -1160,7 +1167,6 @@ body {
   right: 20px;
   top: 20px;
   z-index: 1;
-  -webkit-appearance: none;
   width: 40px;
   z-index: 1002;
 }
@@ -1266,7 +1272,7 @@ body {
     top: 58%;
   }
   .modal-container__title {
-    font: 800 32px/42px "Work Sans", sans-serif;
+    font: 800 22px/23px "Work Sans", sans-serif;
   }
 }
 /*-----MODAL FORM-----*/
