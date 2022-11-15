@@ -1167,6 +1167,7 @@ body {
   right: 20px;
   top: 20px;
   z-index: 1;
+  -webkit-appearance: none;
   width: 40px;
   z-index: 1002;
 }
@@ -1272,7 +1273,11 @@ body {
     top: 58%;
   }
   .modal-container__title {
-    font: 800 22px/23px "Work Sans", sans-serif;
+    font: 800 20px/22px "Work Sans", sans-serif;
+  }
+  .modal-container__text {
+    width: 100%;
+    font: 300 16px/20px "Open Sans", sans-serif;
   }
 }
 /*-----MODAL FORM-----*/
